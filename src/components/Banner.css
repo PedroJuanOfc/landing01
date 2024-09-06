@@ -1,0 +1,61 @@
+/* Banner.css */
+
+.banner {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  background-image: url('/src/assets/background1.png');
+  background-size: cover;
+}
+
+
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.banner-image {
+  flex: 1;
+  padding-right: 70px;
+  padding-bottom: 0;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #000; 
+}
+
+.banner-button {
+  background-color: #000; 
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.banner-button:hover {
+  background-color: #000; 
+  color: #87CEEB;
+}

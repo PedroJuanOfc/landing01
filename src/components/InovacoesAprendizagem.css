@@ -1,0 +1,53 @@
+
+.inovacoes-aprendizagem {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.inovacoes-aprendizagem.animate {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+.inovacoes-aprendizagem-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inovacoes-aprendizagem-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.inovacoes-aprendizagem-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.inovacoes-aprendizagem-text {
+  flex: 1;
+}
+
+.inovacoes-aprendizagem-text h2 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.inovacoes-aprendizagem-text p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
