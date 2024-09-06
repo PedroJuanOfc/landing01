@@ -1,5 +1,5 @@
 .aprendizagem-online {
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +27,7 @@
 .aprendizagem-online-text {
   flex: 1;
   margin-right: 20px;
+  font-family: Roboto;
 }
 
 .aprendizagem-online-text h2 {
@@ -39,6 +40,7 @@
   font-size: 1.2rem;
   color: #555;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .aprendizagem-online-image {

@@ -19,10 +19,7 @@ const Banner = () => {
           <img src={bannerImage} alt="Aprendizagem Online" />
         </div>
         <div className="banner-text">
-          <h1>Aprenda Todos os Dias</h1>
-          <p>
-            Conecte-se com professores especializados e alcance seus objetivos educacionais. Nossa plataforma facilita o aprendizado contínuo e acessível, onde quer que você esteja.
-          </p>
+          <h1>Conecte-se com especialistas e alcance seus objetivos educacionais todos os dias.</h1>
           <a href="#educacao-online" className="banner-button">Consulte Mais Informação</a>
         </div>
       </div>
